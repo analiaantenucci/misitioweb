@@ -1,0 +1,45 @@
+$title-font: normal 16px/1.5 'Open Sans', sans-serif;
+$cool-red: #F44336;
+$box-shadow-bottom-only: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
+#cabecera{
+  background: $cool-red;
+  box-shadow: $box-shadow-bottom-only;
+  ul{
+   list-style: none;
+   li {
+     font: $title-font;
+     padding: 15px;
+     display: inline-block;
+     a {
+       text-decoration: none;
+       font-size: 16px;
+       color: #eee;
+     }
+     .active{
+       color: white;
+     }
+   }
+  }
+}
+
+h1.title {
+ font: $title-font;
+ font-size: 200%;
+ font-weight: bold;
+ color: #707070;
+ border-bottom: 2px solid $cool-red;
+}
+
+h2{
+ font: $title-font;
+ font-size: 160%;
+ color: $cool-red;
+}
+
+div.container {
+ color: $cool-red;
+ background: #fff;
+ width: 100%;
+ box-shadow: $box-shadow-bottom-only;
+}
